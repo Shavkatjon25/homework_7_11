@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.sans{
+  font-family:Public Sans;
+}
+.Nova{
+  font-family:Ibarra Real Nova;
+}
