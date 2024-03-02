@@ -21,9 +21,9 @@ function Contact() {
       </div>
       <div className={`md:flex md:gap-[42px]  ${madal ? 'gap-[4px] right-8 top-5 pt-10 p-5  bg-black text-white flex flex-col absolute ':'hidden'}`}>
         
-      <Link to={'/'}><h2 className="md:text-[#33323D] text-[12px] font-normal text-white" onClick={()=>setModal(!madal)} >HOME</h2></Link>
-      <Link to={'/portfolia'}><h2 className="md:text-[#33323D] text-[12px] font-normal" onClick={()=>setModal(!madal)}>PORTFOLIO</h2></Link>
-      <Link to={'/contact'}> <h2 className="md:text-[#33323D] text-[12px] font-normal" onClick={()=>setModal(!madal)}>CONTACT ME</h2></Link>
+      <Link to={'/'}><h2 className="md:text-[#33323D] text-[12px] font-normal hover:md:text-[#33323d6f] " onClick={()=>setModal(!madal)} >HOME</h2></Link>
+      <Link to={'/portfolia'}><h2 className="md:text-[#33323D] text-[12px] font-normal hover:md:text-[#33323d6f] " onClick={()=>setModal(!madal)}>PORTFOLIO</h2></Link>
+      <Link to={'/contact'}> <h2 className="md:text-[#33323da3] text-[12px] font-normal md:border-b-[2px] border-solid border-red-500" onClick={()=>setModal(!madal)}>CONTACT ME</h2></Link>
       </div>
     </div>
 
